@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.header {
+  background-color: hsl(218, 71%, 52%);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.name-header {
+  margin: 0;
+  text-align: center;
+}
+
+.section {
+  padding: 1rem 2rem;
+}
+
+.section-content {
+  padding-left: 1rem;
+}
+
+.blue-section {
+  background-color: hsl(218, 71%, 52%);
+  color: white;
+}
+
+.skills-list {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.projects-list,
+.skills-list {
+  list-style: none;
+  margin: 0;
+}
+
+.projects-list {
+  color: hsl(0, 0%, 63%);
+}
+
+.projects-list-item {
+  margin-bottom: 1rem;
+}
+
+.contact-section {
+  margin: 2rem 0;
+}
+
+.input {
+  border: 1px solid #aaa;
+  outline: none;
+  padding: 0.5em;
+  font-size: 1rem;
+  border-radius: 0.2em;
+  font-family: inherit;
+  line-height: inherit;
+}
+
+.input:focus {
+  border-color: hsl(218, 71%, 52%);
+  box-shadow: 0 0 5px 0 hsl(218, 71%, 52%);
+}
+
+.text-area {
+  resize: none;
+}
+
+.btn {
+  background-color: hsl(218, 71%, 52%);
+  border: 1px solid hsl(218, 71%, 32%);
+  border-radius: 0.3em;
+  cursor: pointer;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+}
+
+.btn:hover,
+.btn-focus {
+  background-color: hsl(218, 71%, 42%);
+  box-shadow: 0 0 5px 0 hsl(218, 71%, 32%);
+}
+
+.footer {
+  background-color: hsl(218, 71%, 52%);
+  color: white;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+  text-align: center;
+}
